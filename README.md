@@ -1,16 +1,18 @@
-# JavaScript-Interview-Questions
-###### [Interviewbit](https://www.interviewbit.com/javascript-interview-questions/)
+# JavaScript Interview Questions
+###### By [Interviewbit](https://www.interviewbit.com/javascript-interview-questions/)
 
 
-## JavaScript Interview Questions for Freshers
+## Introduction
 
-[**JavaScript**](https://www.scaler.com/topics/javascript/), created by Brendan Eich in 1995, is one of the most widely used web development languages. It was designed to build dynamic web pages at first. A script is a JS program that may be added to the HTML of any web page. When the page loads, these scripts execute automatically.
+JavaScript, created by Brendan Eich in 1995, is one of the most widely used web development languages. It was designed to build dynamic web pages at first. A script is a JS program that may be added to the HTML of any web page. When the page loads, these scripts execute automatically.
 
 A language that was originally designed to build dynamic web pages may now be run on the server and on almost any device that has the JavaScript Engine installed.
 
 After HTML and CSS, JavaScript is the third biggest web technology. JavaScript is a scripting language that may be used to construct online and mobile apps, web servers, games, and more. JavaScript is an object-oriented programming language that is used to generate websites and applications. It was created with the intention of being used in a browser. Even today, the server-side version of JavaScript known as Node.js may be used to create online and mobile apps, real-time applications, online streaming applications, and videogames. [**Javascript frameworks**](https://www.interviewbit.com/blog/javascript-frameworks/), often known as inbuilt libraries, may be used to construct desktop and mobile programs. Developers may save a lot of time on monotonous programming jobs by using these code libraries, allowing them to focus on the production work of development.
 
-![](https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/403/original/Javascript_Developer.png?1654851268)
+<p align="center">
+  <img src="https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/403/original/Javascript_Developer.png?1654851268" width=50% height=50% >
+</p>
 
 The InterviewBit team has compiled a thorough collection of top **Javascript Interview Questions and Answers** to assist you in acing your interview and landing your desired job as a Javascript Developer. 
 
@@ -125,7 +127,9 @@ var array1 = [5, "Hello", true, 4.1];
 
 Hoisting is the default behaviour of javascript where all the variable and function declarations are moved on top.
 
-![](https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/406/original/Hoisting.png?1654851517)
+<p align="center">
+  <img src="https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/406/original/Hoisting.png?1654851517" width=50% height=50% >
+</p>
 
 This means that irrespective of where the variables and functions are declared, they are moved on top of the scope. The scope can be both local and global.
 
@@ -333,7 +337,9 @@ a === b // Returns false because coercion does not take place and the  operands 
 
 JavaScript is a dynamically typed language. In a dynamically typed language, the type of a variable is checked during **run-time** in contrast to a statically typed language, where the type of a variable is checked during **compile-time.**
 
-![](https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/407/original/static_vs_dynamic.png?1654852333)
+<p align="center">
+  <img src="https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/407/original/static_vs_dynamic.png?1654852333" width=50% height=50% >
+</p>
 
 Since javascript is a loosely(dynamically) typed language, variables in JS are not associated with any type. A variable can hold the value of any data type.
 
@@ -379,7 +385,9 @@ Assign operator behaves differently when dealing with primitive and non-primitiv
 
 **Assign operator dealing with primitive types:**
 
-![](https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/408/original/Assign_operator_dealing_with_primitive_types.png?1654852446)
+<p align="center">
+  <img src="https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/408/original/Assign_operator_dealing_with_primitive_types.png?1654852446" width=50% height=50% >
+</p>
 
 ```
 var y = 234;
@@ -404,7 +412,9 @@ From the above example, we can see that primitive data types when passed to anot
 
 **Assign operator dealing with non-primitive types:**
 
-![](https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/410/original/Assign_operator_dealing_with_non-primitive_types.png?1654852531)
+<p align="center">
+  <img src="https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/410/original/Assign_operator_dealing_with_non-primitive_types.png?1654852531" width=50% height=50% >
+</p>
 
 ```
 var obj = { name: "Vivek", surname: "Bisht" };
@@ -926,7 +936,9 @@ All javascript objects inherit properties from a prototype. For example,
 
 Let’s see prototypes help us use methods and properties:
 
-![](https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/411/original/object_prototypes.png?1654853384)
+<p align="center">
+  <img src="https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/411/original/object_prototypes.png?1654853384" width=50% height=50% >
+</p>
 
 ```
 var arr = [];
@@ -1108,7 +1120,9 @@ The above line of code will create a new object of the type Person. Constructor 
 -   When the browser tries to render an HTML document, it creates an object based on the HTML document called DOM. Using this DOM, we can manipulate or change various elements inside the HTML document.
 -   Example of how HTML code gets converted to DOM:
 
-![](https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/412/original/DOM.png?1654853759)
+<p align="center">
+  <img src="https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/412/original/DOM.png?1654853759" width=50% height=50% >
+</p>
 
 ### 29\. Which method is used to retrieve a character from a certain index?
 
@@ -1122,7 +1136,9 @@ Browser Object Model is known as BOM. It allows users to interact with the brows
 
 Client-side JavaScript is made up of two parts, a fundamental language and predefined objects for performing JavaScript in a browser. JavaScript for the client is automatically included in the HTML pages. At runtime, the browser understands this script.
 
-![](https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/413/original/client-side_and_server-side.png?1654854025)
+<p align="center">
+  <img src="https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/413/original/client-side_and_server-side.png?1654854025" width=50% height=50% >
+</p>
 
 Client-side JavaScript is similar to server-side JavaScript. It includes JavaScript that will execute on a server. Only after processing is the server-side JavaScript deployed.
 
@@ -1385,7 +1401,9 @@ Promise object has four states -
 
 A promise is created using the **Promise** constructor which takes in a callback function with two parameters, **resolve** and **reject** respectively.
 
-![](https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/414/original/promise.png?1654854623)
+<p align="center">
+  <img src="https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/414/original/promise.png?1654854623" width=50% height=50% >
+</p>
 
 **resolve** is a function that will be called when the async operation has been successfully completed.
 
@@ -1420,7 +1438,9 @@ In the code above, we are calculating the sum of three elements, if the length o
 
 We can consume any promise by attaching then() and catch() methods to the consumer.
 
-![](https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/416/original/Image-08.png?1654857201)
+<p align="center">
+  <img src="https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/416/original/Image-08.png?1654857201" width=50% height=50% >
+</p>
 
 **then()** method is used to access the result when the promise is fulfilled.
 
